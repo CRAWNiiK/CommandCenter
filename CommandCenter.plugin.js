@@ -179,7 +179,7 @@ class WhoisService {
 class QRCodeService extends BaseService {
   async generateQRCode(url) {
     try {
-      const apiUrl = `https://gifstuffapi.com/qr/index.php?url=${encodeURIComponent(url)}`;
+      const apiUrl = `https://gifstuffapi.com/qr/?url=${encodeURIComponent(url)}`;
       const response = await BdApi.Net.fetch(apiUrl);
       const data = await response.json();
 
@@ -505,7 +505,7 @@ class PatchesService extends BaseService {
 
         // Async function to handle fetch logic
         const generatePetPet = async () => {
-          const response = await BdApi.Net.fetch(`https://gifstuffapi.com/petpet/index.php?image=${encodeURIComponent(avatarUrl)}`);
+          const response = await BdApi.Net.fetch(`https://gifstuffapi.com/petpet/?image=${encodeURIComponent(avatarUrl)}`);
           const result = await response.json();
 
           if (result.error || !result.url) {
@@ -564,7 +564,7 @@ class PatchesService extends BaseService {
 
         // Async function to handle fetch logic
         const generateSwirl = async () => {
-          const response = await BdApi.Net.fetch(`https://gifstuffapi.com/swirl/index.php?image=${encodeURIComponent(avatarUrl)}`);
+          const response = await BdApi.Net.fetch(`https://gifstuffapi.com/swirl/?image=${encodeURIComponent(avatarUrl)}`);
           const result = await response.json();
 
           if (result.error || !result.url) {
@@ -786,7 +786,7 @@ class PatchesService extends BaseService {
 
         // Async function to handle fetch logic
         const generatePizza = async () => {
-          const response = await BdApi.Net.fetch(`https://gifstuffapi.com/pizza/index.php?image=${encodeURIComponent(avatarUrl)}`);
+          const response = await BdApi.Net.fetch(`https://gifstuffapi.com/pizza/?image=${encodeURIComponent(avatarUrl)}`);
           const result = await response.json();
 
           if (result.error || !result.url) {
@@ -845,7 +845,7 @@ class PatchesService extends BaseService {
 
         // Async function to handle fetch logic
         const generateMoney = async () => {
-          const response = await BdApi.Net.fetch(`https://gifstuffapi.com/money/index.php?image=${encodeURIComponent(avatarUrl)}`);
+          const response = await BdApi.Net.fetch(`https://gifstuffapi.com/money/?image=${encodeURIComponent(avatarUrl)}`);
           const result = await response.json();
 
           if (result.error || !result.url) {
