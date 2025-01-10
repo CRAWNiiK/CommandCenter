@@ -1,64 +1,50 @@
-# CommandCenter Plugin
+# Command Center Plugin
 
-CommandCenter is a BetterDiscord plugin that allows you to define custom commands and respond to them dynamically within your Discord server. Designed for flexibility and ease of use, it is perfect for managing server rules, creating fun responses, or customizing server interactions.
+## Overview
+Command Center is a BetterDiscord plugin that enhances your Discord experience by introducing various slash commands and customizable commands. Whether you need to display server rules, generate fun responses, or perform utility functions like looking up definitions, this plugin has got you covered.
 
 ---
 
-## Features
-- **Customizable Commands**: Add, modify, or remove commands via the configuration file.
-- **Dynamic Responses**: Supports formatted messages including bold, italics, and more.
-- **Seamless Integration**: Works with BetterDiscord for smooth operation within your Discord client.
-- **Quick Access**: Triggers responses with predefined commands.
+## Key Features
+- **Slash Commands**: Includes built-in commands for user profiles, Urban Dictionary lookups, QR code generation, and more.
+- **Custom Commands**: Easily define your own commands and their responses using a configuration file.
+- **Utility Functions**: Supports features like reminders, IP lookup, and dictionary definitions.
+- **Dynamic Interaction**: Commands are flexible and can include formatted responses or links.
 
 ---
 
 ## Installation
-1. **Download the Plugin**: Save the `.plugin.js` file into your BetterDiscord plugin folder.  
+1. **Download the Plugin**: Place the `CommandCenter.plugin.js` file in your BetterDiscord plugins folder.
    - On Windows: `%appdata%\BetterDiscord\plugins`
    - On macOS: `~/Library/Application Support/BetterDiscord/plugins`
-2. **Enable the Plugin**: Open Discord, navigate to the BetterDiscord settings, and enable CommandCenter.
+2. **Enable the Plugin**: Go to your BetterDiscord settings and enable the Command Center plugin.
 
 ---
 
 ## Configuration
-1. Locate the `CommandCenter.config.json` file.
-2. Add or update commands in the JSON file. Example structure:
-   - Keys represent the command keywords (e.g., `hello`).
-   - Values represent the responses (e.g., `Hello, world!`).
-3. Save the file and reload the plugin for changes to take effect.
+1. The plugin automatically creates a `CommandCenter.config.json` file in the plugin directory on first use.
+2. Edit this configuration file to add or modify commands. The file supports customizable command-response mappings.
+3. Save the file and reload the plugin to apply your changes.
 
 ---
 
 ## Usage
-1. Type the defined command (e.g., `/hello`) in any channel.
-2. The plugin will automatically post the configured response.
-3. Commands are case-sensitive.
-
----
-
-## Example Commands
-- `/hello` → Responds with "Hello, world!"
-- `/rules` → Displays your server rules.
-- `/bye` → Responds with "Goodbye, cruel world!"
-
----
-
-## Notes
-- **Prefix**: Commands are triggered without a leading prefix (e.g., no `!` or `/` unless specified in the configuration).
-- **Formatting**: Use Markdown syntax for bold, italics, lists, etc., in responses.
+- **Trigger Commands**: Type the predefined command in any chat (e.g., `/hello` or `/rules`).
+- **Custom Responses**: Add your own commands with personalized responses.
+- **Integrated Features**: Use commands for utility tasks like generating QR codes or setting reminders.
 
 ---
 
 ## Troubleshooting
-- **Commands Not Responding**: Ensure the plugin is enabled in BetterDiscord settings and that the configuration file is correctly formatted.
-- **Configuration Errors**: Use a JSON validator to check for syntax issues in `CommandCenter.config.json`.
+- **Commands Not Working**: Ensure the plugin is enabled and the configuration file is formatted correctly.
+- **Issues with Built-in Commands**: Check for updates to ensure compatibility with the latest BetterDiscord version.
 
 ---
 
-## Contribution
-Feel free to contribute by reporting issues or submitting pull requests on the GitHub repository.
+## Contributions
+Contributions are welcome! Feel free to report issues or suggest features on the [GitHub repository](https://github.com/CRAWNiiK/BetterDiscordPlugins/CommandCenter.plugin.js).
 
 ---
 
 ## License
-This plugin is released under the MIT License. See the LICENSE file for details.
+This plugin is licensed under the MIT License. See the LICENSE file for more information.
