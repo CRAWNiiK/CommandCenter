@@ -1,9 +1,0 @@
-{
-  "prefix": "./",
-  "commands": {
-    "hello": "Hello, world!",
-    "rules": "**Server Rules:**\n1. **Be Respectful** - Treat everyone with respect. No harassment or hate speech.\n2. **No Spamming** - Avoid excessive messages or disruptive content.\n3. **Stay On Topic** - Keep discussions relevant to the channel.\n4. **Follow Discord TOS** - Ensure your actions align with Discord's Terms of Service.",
-    "bye": "Goodbye, cruel world!",
-    "triforce": "‌ ‌  ▲\n▲‌ ▲"
-  }
-}
