@@ -29,7 +29,7 @@ Command Center is a BetterDiscord plugin that enhances your Discord experience b
 ---
 
 ## Usage
-- **Trigger Commands**: Type the predefined command in any chat (e.g., `/hello` or `/rules`).
+- **Trigger Commands**: Type the predefined command in any chat (e.g., `/petpet` or `/avatar`).
 - **Custom Responses**: Add your own commands with personalized responses.
 - **Integrated Features**: Use commands for utility tasks like generating QR codes or setting reminders.
 
