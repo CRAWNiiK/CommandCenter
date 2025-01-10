@@ -5,8 +5,8 @@
  * @license MIT
  * @author CRAWNiiK
  * @authorId 518240643156541470
- * @website https://github.com/CRAWNiiK/CommandCenter/CommandCenter.plugin.js
- * @source https://raw.github.com/CRAWNiiK/CommandCenter/CommandCenter.plugin.js
+ * @website https://github.com/CRAWNiiK/CommandCenter/blob/main/CommandCenter.plugin.js
+ * @source https://raw.githubusercontent.com/CRAWNiiK/CommandCenter/refs/heads/main/CommandCenter.plugin.js
  */
 
 'use strict';
