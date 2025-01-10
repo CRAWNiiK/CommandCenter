@@ -1,6 +1,6 @@
 /**
  * @name Command Center
- * @version 1.0.1
+ * @version 1.0.2
  * @description Several slash commands to have fun with, and custom commands functionality.
  * @license MIT
  * @author CRAWNiiK
