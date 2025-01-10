@@ -42,7 +42,7 @@ Command Center is a BetterDiscord plugin that enhances your Discord experience b
 ---
 
 ## Contributions
-Contributions are welcome! Feel free to report issues or suggest features on the [GitHub repository](https://github.com/CRAWNiiK/CommandCenter/CommandCenter.plugin.js).
+Contributions are welcome! Feel free to report issues or suggest features on the [GitHub repository](https://github.com/CRAWNiiK/CommandCenter/).
 
 ---
 
