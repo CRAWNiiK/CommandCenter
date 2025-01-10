@@ -5,8 +5,8 @@
  * @license MIT
  * @author CRAWNiiK
  * @authorId 518240643156541470
- * @website https://github.com/CRAWNiiK/BetterDiscordPlugins/CommandCenter.plugin.js
- * @source https://raw.github.com/CRAWNiiK/BetterDiscordPlugins/CommandCenter.plugin.js
+ * @website https://github.com/CRAWNiiK/CommandCenter/CommandCenter.plugin.js
+ * @source https://raw.github.com/CRAWNiiK/CommandCenter/CommandCenter.plugin.js
  */
 
 'use strict';
